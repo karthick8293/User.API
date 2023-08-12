@@ -14,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var configurationString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(configurationString, b => b.MigrationsAssembly("KarthickAPI")));
+    options.UseSqlServer(configurationString, b => b.MigrationsAssembly("User.API")));
 
 
 builder.Services.AddControllers();
