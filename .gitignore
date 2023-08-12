@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs
+/share/User.Data/bin/Debug/net6.0
+/share/User.Data/obj
+/share/User.Repository/obj
+/share/User.Repository/bin/Debug/net6.0
+/share/User.Service/bin/Debug/net6.0
+/share/User.Service/obj
+/src/host/User.API/bin/Debug/net6.0
+/src/host/User.API/obj
